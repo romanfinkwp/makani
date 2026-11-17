@@ -1,0 +1,109 @@
+/*
+Theme Name: Makani
+Theme URI: https://wordpress.org/themes/makani/
+Author: Roman Fink
+Author URI: https://profiles.wordpress.org/romanfink/
+Description: Makani is a refined, minimalist block theme for a personal website or portfolio. A calm homepage is ready right after activation: an introduction with an arch-shaped portrait, about section with quick facts, selected work gallery, services list, latest blog posts and a contact section. Light Geist typography, small monospaced labels, hairline details, a white and a dark (Ink) style. Made for photographers, designers, writers, freelancers and creatives — edit everything in the Site Editor, no code required.
+Requires at least: 7.0
+Tested up to: 7.1
+Requires PHP: 7.4
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Text Domain: makani
+Tags: one-column, grid-layout, custom-colors, custom-menu, editor-style, featured-images, full-site-editing, block-patterns, block-styles, style-variations, wide-blocks, translation-ready, blog, portfolio, photography
+*/
+
+html {
+	scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+:target,
+[id] {
+	scroll-margin-top: var(--wp--preset--spacing--30);
+}
+
+::selection {
+	background-color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--background);
+}
+
+a {
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.18em;
+}
+
+h1, h2, h3, h4, h5, h6, blockquote, figcaption, p {
+	text-wrap: pretty;
+}
+
+/* --- Stick footer to bottom --- */
+
+.wp-site-blocks {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	min-height: 100dvh;
+}
+
+.wp-site-blocks > main,
+.wp-site-blocks > .wp-block-group:not(footer) {
+	flex-grow: 1;
+}
+
+.wp-site-blocks > footer {
+	margin-block-start: 0;
+}
+
+/* --- Tabular numbers for everything set in Geist Mono --- */
+
+.has-geist-mono-font-family,
+.is-style-label {
+	font-variant-numeric: tabular-nums;
+}
+
+/* --- Header --- */
+
+.makani-header .wp-block-navigation__responsive-container-open {
+	padding: 0;
+}
+
+/* --- Custom navigation overlay fills the viewport --- */
+
+.wp-block-navigation__responsive-container.is-menu-open .makani-overlay {
+	min-height: 100dvh;
+}
+
+/* --- Rows with hairlines (about facts, services, recognition) --- */
+
+.makani-rows > * + * {
+	margin-block-start: 0;
+}
+
+/* --- Query loop rows: remove list spacing, rely on hairlines --- */
+
+.makani-post-list .wp-block-post-template {
+	gap: 0;
+}
+
+.makani-post-list .wp-block-post-template > li {
+	margin-block-start: 0;
+}
+
+/* --- Images: no link underline --- */
+
+a:has(> img) {
+	text-decoration: none;
+}
+
+/* --- Quote citation: core sets a relative size, keep it small and mono --- */
+
+.wp-block-quote cite {
+	font-size: var(--wp--preset--font-size--tiny);
+}

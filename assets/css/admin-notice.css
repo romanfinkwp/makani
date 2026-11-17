@@ -1,0 +1,47 @@
+#makani-notice {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	gap: 16px;
+	padding: 12px;
+	border-left-color: #111;
+}
+
+#makani-notice .makani-notice-photo {
+	max-width: 100%;
+	height: auto;
+	border-radius: 4px;
+}
+
+#makani-notice .makani-notice-text {
+	flex: 1 1 320px;
+}
+
+#makani-notice h3 {
+	margin: 0 0 8px;
+	font-size: 18px;
+}
+
+#makani-notice .makani-notice-cta {
+	margin: 10px 0 20px;
+}
+
+#makani-notice .makani-notice-btn {
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 4px;
+	background-color: #111;
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+#makani-notice .makani-notice-btn:hover,
+#makani-notice .makani-notice-btn:focus {
+	background-color: #333;
+	color: #fff;
+}
+
+#makani-notice .makani-notice-close {
+	margin: 5px 0 0;
+}

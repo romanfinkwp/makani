@@ -1,0 +1,725 @@
+# Copyright (C) 2026 Roman Fink
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Makani 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/makani\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-07T05:42:10-06:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: makani\n"
+
+#. Theme Name of the theme
+#: style.css
+#: functions.php:47
+msgid "Makani"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://wordpress.org/themes/makani/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Makani is a refined, minimalist block theme for a personal website or portfolio. A calm homepage is ready right after activation: an introduction with an arch-shaped portrait, about section with quick facts, selected work gallery, services list, latest blog posts and a contact section. Light Geist typography, small monospaced labels, hairline details, a white and a dark (Ink) style. Made for photographers, designers, writers, freelancers and creatives — edit everything in the Site Editor, no code required."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+#: functions.php:191
+msgid "Roman Fink"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://wordpress.org/themes/makani/"
+msgstr ""
+
+#: functions.php:48
+msgid "Sections of the Makani homepage."
+msgstr ""
+
+#: functions.php:94
+msgid "Hi, I'm Roman Fink, the creator of the Makani theme!"
+msgstr ""
+
+#: functions.php:95
+msgid "Upgrade to Makani PRO:"
+msgstr ""
+
+#: functions.php:96
+#: functions.php:202
+msgid "Unlock 4 home pages, 4 inner pages, 37 design patterns, 11 color styles and exclusive premium features to elevate your website."
+msgstr ""
+
+#: functions.php:98
+#: functions.php:203
+msgid "Discover Makani PRO"
+msgstr ""
+
+#: functions.php:100
+msgid "Support my work:"
+msgstr ""
+
+#: functions.php:101
+msgid "Need help with your website? Email me at:"
+msgstr ""
+
+#: functions.php:102
+msgid "Visit my website:"
+msgstr ""
+
+#: functions.php:103
+msgid "Follow me on X:"
+msgstr ""
+
+#: functions.php:104
+msgid "Just close this notice to hide it. Thanks for using the Makani theme!"
+msgstr ""
+
+#: functions.php:155
+#: functions.php:156
+msgid "About Makani"
+msgstr ""
+
+#: functions.php:187
+msgid "Makani Theme"
+msgstr ""
+
+#: functions.php:192
+msgid "Hi, I'm Roman Fink"
+msgstr ""
+
+#: functions.php:193
+msgid "The creator of the Makani theme!"
+msgstr ""
+
+#: functions.php:195
+msgid "Website"
+msgstr ""
+
+#: functions.php:201
+msgid "Upgrade to Makani PRO"
+msgstr ""
+
+#: functions.php:207
+msgid "Need Help?"
+msgstr ""
+
+#: functions.php:208
+msgid "Having trouble setting up the theme or need help with your website? Feel free to reach out — I'm happy to help!"
+msgstr ""
+
+#: functions.php:209
+msgid "Email me at:"
+msgstr ""
+
+#: functions.php:213
+msgid "Support My Work"
+msgstr ""
+
+#: functions.php:214
+msgid "If you enjoy the Makani theme and want to support its development, consider buying me a coffee. Every bit is appreciated!"
+msgstr ""
+
+#: functions.php:215
+msgid "Buy Me a Coffee"
+msgstr ""
+
+#: patterns/about.php
+msgctxt "Pattern title"
+msgid "About"
+msgstr ""
+
+#: patterns/about.php
+msgctxt "Pattern description"
+msgid "A light statement with a short biography and a list of quick facts."
+msgstr ""
+
+#: patterns/about.php:14
+msgid "Based in"
+msgstr ""
+
+#: patterns/about.php:14
+msgid "Madrid, Spain"
+msgstr ""
+
+#: patterns/about.php:15
+msgid "Working"
+msgstr ""
+
+#: patterns/about.php:15
+msgid "Worldwide"
+msgstr ""
+
+#: patterns/about.php:16
+msgid "Medium"
+msgstr ""
+
+#: patterns/about.php:16
+msgid "Film & digital"
+msgstr ""
+
+#: patterns/about.php:17
+msgid "Languages"
+msgstr ""
+
+#: patterns/about.php:17
+msgid "English, Spanish"
+msgstr ""
+
+#: patterns/about.php:22
+msgid "01 — About"
+msgstr ""
+
+#: patterns/about.php:28
+msgid "I photograph people and places shaped by the wind — fishing towns, island roads and cities in motion."
+msgstr ""
+
+#: patterns/about.php:28
+msgid "For twelve years I have made long-form stories for magazines, NGOs and brands that care about the details."
+msgstr ""
+
+#: patterns/about.php:32
+msgid "Born in Honolulu and based in Madrid since 2016, I work between the Atlantic islands, Southern Europe and wherever an assignment takes me. I believe the best images come from time spent, not time saved: I stay longer, return often and let the story set the pace."
+msgstr ""
+
+#: patterns/contact.php
+msgctxt "Pattern title"
+msgid "Contact"
+msgstr ""
+
+#: patterns/contact.php
+msgctxt "Pattern description"
+msgid "A centred call to action with a large heading, e-mail address and links."
+msgstr ""
+
+#: patterns/contact.php:16
+msgid "05 — Contact"
+msgstr ""
+
+#: patterns/contact.php:20
+msgid "Have a story in mind?"
+msgstr ""
+
+#: patterns/contact.php:20
+msgid "Let’s make it together."
+msgstr ""
+
+#: patterns/contact.php:24
+#: patterns/navigation-overlay.php:38
+msgid "hello@example.com"
+msgstr ""
+
+#: patterns/contact.php:28
+msgid "Booking editorial and brand work from October 2026."
+msgstr ""
+
+#: patterns/contact.php:33
+msgid "Instagram ↗"
+msgstr ""
+
+#: patterns/contact.php:37
+msgid "Newsletter ↗"
+msgstr ""
+
+#: patterns/contact.php:41
+msgid "Print shop ↗"
+msgstr ""
+
+#: patterns/footer.php
+msgctxt "Pattern title"
+msgid "Footer"
+msgstr ""
+
+#. translators: 1: opening link tag, 2: closing link tag.
+#: patterns/footer.php:20
+#, php-format
+msgid "Makani theme by %1$sRoman Fink%2$s"
+msgstr ""
+
+#: patterns/footer.php:24
+msgid "Back to top ↑"
+msgstr ""
+
+#: patterns/front-page.php
+msgctxt "Pattern title"
+msgid "Front page"
+msgstr ""
+
+#: patterns/header.php
+msgctxt "Pattern title"
+msgid "Header"
+msgstr ""
+
+#: patterns/header.php:19
+#: patterns/navigation-overlay.php:21
+msgid "About"
+msgstr ""
+
+#: patterns/header.php:21
+#: patterns/navigation-overlay.php:23
+msgid "Work"
+msgstr ""
+
+#: patterns/header.php:23
+#: patterns/navigation-overlay.php:25
+msgid "Services"
+msgstr ""
+
+#: patterns/header.php:25
+#: patterns/hidden-journal-heading.php:17
+#: patterns/navigation-overlay.php:27
+msgid "Journal"
+msgstr ""
+
+#: patterns/header.php:30
+#: patterns/navigation-overlay.php:29
+msgid "Contact"
+msgstr ""
+
+#: patterns/hero.php
+msgctxt "Pattern title"
+msgid "Hero — introduction with arch portrait"
+msgstr ""
+
+#: patterns/hero.php
+msgctxt "Pattern description"
+msgid "Availability line, a two-tone introduction, two buttons and an arch-shaped portrait."
+msgstr ""
+
+#: patterns/hero.php:18
+msgid "Available for commissions from October 2026"
+msgstr ""
+
+#: patterns/hero.php:22
+msgid "I’m Makani"
+msgstr ""
+
+#: patterns/hero.php:22
+msgid ", a documentary photographer based in Madrid, working worldwide."
+msgstr ""
+
+#: patterns/hero.php:26
+msgid "Quiet, long-form stories about people and places shaped by the wind — for magazines, NGOs and brands that care about the details."
+msgstr ""
+
+#: patterns/hero.php:31
+#: patterns/work.php:45
+msgid "Selected work"
+msgstr ""
+
+#: patterns/hero.php:35
+msgid "Get in touch"
+msgstr ""
+
+#: patterns/hero.php:42
+msgid "Makani photographing by a lake"
+msgstr ""
+
+#: patterns/hidden-404.php
+msgctxt "Pattern title"
+msgid "404"
+msgstr ""
+
+#: patterns/hidden-404.php:13
+msgid "Error 404"
+msgstr ""
+
+#: patterns/hidden-404.php:17
+msgid "This page drifted<br>away with the wind."
+msgstr ""
+
+#: patterns/hidden-404.php:21
+msgid "The link may be broken, or the page may have been moved. Try a search or start from the homepage."
+msgstr ""
+
+#: patterns/hidden-404.php:24
+#: patterns/hidden-search-heading.php:14
+msgid "Search"
+msgstr ""
+
+#: patterns/hidden-404.php:24
+#: patterns/hidden-search-heading.php:14
+msgid "Search the site…"
+msgstr ""
+
+#: patterns/hidden-404.php:28
+msgid "← Back to the homepage"
+msgstr ""
+
+#: patterns/hidden-journal-heading.php
+msgctxt "Pattern title"
+msgid "Journal heading"
+msgstr ""
+
+#: patterns/hidden-journal-heading.php:13
+#: patterns/journal.php:21
+msgid "Notes from the road"
+msgstr ""
+
+#: patterns/hidden-posts-list.php
+msgctxt "Pattern title"
+msgid "Posts list"
+msgstr ""
+
+#: patterns/hidden-posts-list.php:44
+msgid "Nothing here yet. Try another search or head back to the homepage."
+msgstr ""
+
+#: patterns/hidden-search-heading.php
+msgctxt "Pattern title"
+msgid "Search heading"
+msgstr ""
+
+#: patterns/journal.php
+msgctxt "Pattern title"
+msgid "Journal — latest posts"
+msgstr ""
+
+#: patterns/journal.php
+msgctxt "Pattern description"
+msgid "Section heading and the three latest posts as rows with monospaced dates."
+msgstr ""
+
+#: patterns/journal.php:17
+msgid "04 — Journal"
+msgstr ""
+
+#: patterns/journal.php:38
+msgid "Read →"
+msgstr ""
+
+#: patterns/journal.php:46
+msgid "Notes from the road will appear here soon."
+msgstr ""
+
+#: patterns/navigation-overlay.php
+msgctxt "Pattern title"
+msgid "Navigation overlay"
+msgstr ""
+
+#: patterns/navigation-overlay.php:34
+msgid "Based in Madrid, working worldwide"
+msgstr ""
+
+#: patterns/services.php
+msgctxt "Pattern title"
+msgid "Services"
+msgstr ""
+
+#: patterns/services.php
+msgctxt "Pattern description"
+msgid "Section heading and a numbered list of services separated by hairlines."
+msgstr ""
+
+#: patterns/services.php:15
+msgid "Editorial & documentary"
+msgstr ""
+
+#: patterns/services.php:16
+msgid "Long-form stories and features for magazines, newspapers and NGOs. Research, access and sequencing are part of the job."
+msgstr ""
+
+#: patterns/services.php:17
+msgid "Assignments · Worldwide"
+msgstr ""
+
+#: patterns/services.php:20
+msgid "Brand & campaign"
+msgstr ""
+
+#: patterns/services.php:21
+msgid "Honest imagery for brands with a sense of place — hospitality, outdoor, craft and food. Shot on location, in natural light."
+msgstr ""
+
+#: patterns/services.php:22
+msgid "Campaigns · Lookbooks"
+msgstr ""
+
+#: patterns/services.php:25
+msgid "Portraits"
+msgstr ""
+
+#: patterns/services.php:26
+msgid "Environmental portraits of founders, artists and teams — at work, at home or outdoors."
+msgstr ""
+
+#: patterns/services.php:27
+msgid "Half day · Full day"
+msgstr ""
+
+#: patterns/services.php:34
+msgid "03 — Services"
+msgstr ""
+
+#: patterns/services.php:38
+msgid "How I can help"
+msgstr ""
+
+#: patterns/work.php
+msgctxt "Pattern title"
+msgid "Selected work"
+msgstr ""
+
+#: patterns/work.php
+msgctxt "Pattern description"
+msgid "Section heading and a three-column grid of projects with gallery-style captions."
+msgstr ""
+
+#: patterns/work.php:16
+msgid "Long Shadows"
+msgstr ""
+
+#: patterns/work.php:18
+msgid "Lisbon · 24 photographs"
+msgstr ""
+
+#: patterns/work.php:19
+msgid "Two people walking with long shadows on the pavement"
+msgstr ""
+
+#: patterns/work.php:23
+msgid "Salt & Wind"
+msgstr ""
+
+#: patterns/work.php:25
+msgid "Nazaré · 18 photographs"
+msgstr ""
+
+#: patterns/work.php:26
+msgid "Sea foam sliding over wet sand"
+msgstr ""
+
+#: patterns/work.php:30
+msgid "Neighbours"
+msgstr ""
+
+#: patterns/work.php:32
+msgid "Alfama · 40 portraits"
+msgstr ""
+
+#: patterns/work.php:33
+msgid "Portrait of an elderly woman looking over her shoulder"
+msgstr ""
+
+#: patterns/work.php:41
+msgid "02 — Portfolio"
+msgstr ""
+
+#: patterns/work.php:50
+msgid "All series →"
+msgstr ""
+
+#: theme.json
+msgctxt "Border radius size name"
+msgid "None"
+msgstr ""
+
+#: theme.json
+msgctxt "Border radius size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Border radius size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Border radius size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Border radius size name"
+msgid "Pill"
+msgstr ""
+
+#: theme.json
+#: styles/ink.json
+msgctxt "Duotone name"
+msgid "Monochrome"
+msgstr ""
+
+#: theme.json
+#: styles/ink.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: theme.json
+#: styles/ink.json
+msgctxt "Color name"
+msgid "Surface"
+msgstr ""
+
+#: theme.json
+#: styles/ink.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+#: styles/ink.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json
+#: styles/ink.json
+msgctxt "Color name"
+msgid "Line"
+msgstr ""
+
+#: theme.json
+#: styles/ink.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr ""
+
+#: theme.json
+msgctxt "Aspect ratio name"
+msgid "Portrait - 4:5"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "1"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "5"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "6"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "7"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Geist"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Geist Mono"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Tiny"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Normal"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XX Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XXX Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Display"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Navigation Overlay"
+msgstr ""
+
+#: styles/blocks/image-arch.json
+msgctxt "Style variation name"
+msgid "Arch"
+msgstr ""
+
+#: styles/blocks/paragraph-label.json
+msgctxt "Style variation name"
+msgid "Label"
+msgstr ""
+
+#: styles/blocks/paragraph-status.json
+msgctxt "Style variation name"
+msgid "Status"
+msgstr ""
+
+#: styles/blocks/post-terms-tags.json
+msgctxt "Style variation name"
+msgid "Tags"
+msgstr ""
+
+#: styles/ink.json
+msgctxt "Style variation name"
+msgid "Ink"
+msgstr ""

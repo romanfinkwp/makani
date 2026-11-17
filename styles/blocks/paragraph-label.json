@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.1/theme.json",
+	"version": 3,
+	"slug": "label",
+	"title": "Label",
+	"blockTypes": [ "core/paragraph" ],
+	"styles": {
+		"color": {
+			"text": "var:preset|color|secondary"
+		},
+		"typography": {
+			"fontFamily": "var:preset|font-family|geist-mono",
+			"fontSize": "var:preset|font-size|tiny",
+			"fontWeight": "400",
+			"letterSpacing": "0.06em",
+			"lineHeight": "1.5",
+			"textTransform": "uppercase"
+		}
+	}
+}

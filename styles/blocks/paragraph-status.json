@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.1/theme.json",
+	"version": 3,
+	"slug": "status",
+	"title": "Status",
+	"blockTypes": [ "core/paragraph" ],
+	"styles": {
+		"color": {
+			"text": "var:preset|color|secondary"
+		},
+		"typography": {
+			"fontFamily": "var:preset|font-family|geist-mono",
+			"fontSize": "var:preset|font-size|tiny",
+			"fontWeight": "400",
+			"letterSpacing": "0.06em",
+			"lineHeight": "1.5",
+			"textTransform": "uppercase"
+		},
+		"css": "&::before{content:\"\";display:inline-block;width:0.5em;height:0.5em;margin-inline-end:0.6em;border-radius:50%;background-color:var(--makani-status-color, #3f8f5a);vertical-align:0.05em;}"
+	}
+}
